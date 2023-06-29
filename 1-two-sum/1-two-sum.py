@@ -10,7 +10,7 @@ class Solution:
             if difference in d:
                 return [d[difference], i]
             d[n] = i
-    
+        return
             
             
         
