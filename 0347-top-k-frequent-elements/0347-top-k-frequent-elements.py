@@ -14,12 +14,10 @@ class Solution:
         result = []
 
         for i in range(len(freq) - 1, 0, -1):
-
-            if len(freq[i]) > 0:
-                for f in freq[i]:
-                    result.append(f)
-                    if len(result) == k:
-                        return result
+            for f in freq[i]:
+                result.append(f)
+                if len(result) == k:
+                    return result
 
         
         
